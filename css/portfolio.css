@@ -10,14 +10,14 @@ ul{
  font-style: normal;
  font-weight: 400;
  font-size: 16px;
- line-height: 24px;
+ line-height:1.5;
 }
 .WebStudio-stayll{
   font-family:'Raleway';
   font-style: normal;
   font-weight: 800;
   font-size: 18px;
-  line-height: 24px; 
+  line-height:1.33; 
 }
 
 .header-link{
@@ -27,7 +27,7 @@ ul{
    font-style: normal;
    font-weight: 500;
    font-size: 20px;
-   line-height: 24px;
+   line-height:1.2;
   }
 
 
@@ -41,29 +41,25 @@ ul{
   background-color: #F4F4FD;
   color: #4D5AE5;
   border-radius: 4px;
-   font-family:'Roboto';
+   font-family:'Roboto', sans-serif;
    font-style: normal;
    font-weight: 500;
    font-size: 16px;
-   line-height: 24px;
+   line-height:1.5;
 }
 
 .section-title{
   color:#2E2F42 ; 
-   font-family:'Roboto';
-   font-style: normal;
    font-weight: 500;
    font-size: 20px;
-   line-height: 24px;
+   line-height:1.2;
 }
 .section-text{
   font-family:Roboto;
 color:#434455 ;
- font-family:'Roboto';
- font-style: normal;
  font-weight: 400;
  font-size: 16px;
- line-height: 24px;
+ line-height:1.5;
 }
 
 .footer-stayl{
@@ -77,13 +73,12 @@ color:#434455 ;
    font-style: normal;
    font-weight: 800;
    font-size: 18px;
-   line-height: 21px;
+   line-height:1.16;
 }
 .footer-text{
   color: #E7E9FC ;
    font-family:'Roboto';
-   font-style: normal;
    font-weight: 400;
    font-size: 16px;
-   line-height: 24px;
+   line-height:1.5;
 }
