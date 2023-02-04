@@ -1,11 +1,11 @@
-
 ul{
   list-style-type:none ;
 }
 
 .body{
-font-family:Roboto;
-color:#434455 ;
+  background-color:#E5E5E5;
+  font-family:Roboto;
+ color:#434455 ;
  font-family:'Roboto';
  font-style: normal;
  font-weight: 400;
@@ -28,22 +28,24 @@ color:#434455 ;
    font-weight: 500;
    font-size: 20px;
    line-height: 24px;
-}
-.maim-stayl{
-  background-color: #2E2F42 ;
-}
-.main-title {
+  }
+
+
+
+.button-primary{
+  background-color:#4D5AE5 ;
   color:#FFFFFF;
-  font-family:'Roboto';
-  font-style: normal;
-  font-weight: 700;
-  font-size: 56px;
-  line-height: 60px;
-}
-.test-button{
-background-color:#4D5AE5 ;
-color:#FFFFFF;
-border-radius: 4px;
+  border-radius: 4px;
+} 
+.button-secondary{
+  background-color: #F4F4FD;
+  color: #4D5AE5;
+  border-radius: 4px;
+   font-family:'Roboto';
+   font-style: normal;
+   font-weight: 500;
+   font-size: 16px;
+   line-height: 24px;
 }
 
 .section-title{
@@ -63,18 +65,7 @@ color:#434455 ;
  font-size: 16px;
  line-height: 24px;
 }
-.section-styl{
-  color: #2E2F42;
-   font-family:'Roboto';
-   font-style: normal;
-   font-weight: 700;
-   font-size: 36px;
-   line-height: 40px;
-}
 
-.about-piple{
-  background-color:#F4F4FD;
-}
 .footer-stayl{
   color:#FFFFFF;
   background-color: #2E2F42
