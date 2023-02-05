@@ -5,12 +5,13 @@
   --accent-color:#FFFFFF;
   --second-bg-color:#F4F4FD;
   --first-bg-color: #4D5AE5;
+  --bg-color:#404BBF;
   --cecond-tx-color: #E7E9FC ;
 }
 ul{
   list-style-type:none ;
 }
-.body{
+body{
   color:var(--primary-text-color) ;
   background-color:var(--accent-color);
   font-family:'Roboto',sans-serif;
@@ -18,7 +19,7 @@ ul{
   font-size: 16px;
   line-height: 1.5;
 }
-.WebStudio-stayll{
+.webstudio-stayll{
   text-decoration:none ;
   font-family:'Raleway',sans-serif;
   font-weight: 800;
@@ -33,13 +34,16 @@ ul{
 .header-studio{
   color: #000;
 }
-.header-link:hover,:focus {
+.header-link{
   text-decoration:none ;
   color:var(--titli-text-color);
-  background-color:var(--accent-color);
    font-weight: 500;
-   font-size: 20px;
+   font-size: 16px;
    line-height:1.2;
+}
+.header-link:hover,
+.header-link:focus {
+color:var(--bg-color);
 }
 .header-address{
   text-decoration:none ;
@@ -49,7 +53,6 @@ ul{
    line-height:1.5;
    letter-spacing:0.02em;
    font-style: normal;
-
    }
 .maim-stayl{
   background-color:var(--titli-text-color) ;
@@ -71,6 +74,11 @@ font-size:16px;
 line-height:1.5;
 font-weight: 500;
 font-style: normal;
+}
+.test-button:hover,
+.test-button:focus {
+color: var(--accent-color);
+background-color: var(--bg-color);
 }
 .visually-hidden {
   position: absolute;
@@ -125,7 +133,7 @@ font-style: normal;
 .section-fon{
   background-color:var(--accent-color);
 }
-.WebStudio-stayl{
+.webstudio-stayll{
   color:var(--accent-color);
    font-family:'Raleway', sans-serif;
    font-weight: 800;
@@ -146,7 +154,7 @@ font-style: normal;
    letter-spacing:0.02em;
 }
 
-.button-secondary :hover,:focus {
+.button-secondary{
   background-color:var(--second-bg-color);
   color:var(--first-bg-color);
   border-radius: 4px;
@@ -157,4 +165,8 @@ font-style: normal;
    line-height:1.5;
    cursor: pointer;
 }
-
+.button-secondary:hover,
+.button-secondary:focus{
+  background-color:var(--first-bg-color);
+  color: var(--accent-color);
+}
