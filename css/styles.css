@@ -3,17 +3,17 @@
   --primary-text-color: #434455;
   --titli-text-color:#2E2F42 ;
   --accent-color:#FFFFFF;
+  --second-bg-color:#F4F4FD;
+  --first-bg-color: #4D5AE5;
+  --cecond-tx-color: #E7E9FC ;
 }
 ul{
   list-style-type:none ;
 }
-
-
-
 .body{
   color:var(--primary-text-color) ;
-  background-color: #FFFFFF;
-  font-family:'Roboto';
+  background-color:var(--accent-color);
+  font-family:'Roboto',sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
@@ -24,17 +24,19 @@ ul{
   font-weight: 800;
   font-size: 18px;
   line-height:1.33; 
+  letter-spacing:0.03em;
+  text-transform: uppercase;
 }
 .header-web{
-  color: #4D5AE5;
+  color:var(--first-bg-color);
 }
 .header-studio{
   color: #000;
 }
-.header-link{
+.header-link:hover,:focus {
   text-decoration:none ;
   color:var(--titli-text-color);
-  background-color: #FFFFFF;
+  background-color:var(--accent-color);
    font-weight: 500;
    font-size: 20px;
    line-height:1.2;
@@ -45,21 +47,30 @@ ul{
    font-weight: 400;
    font-size: 16px;
    line-height:1.5;
-}
+   letter-spacing:0.02em;
+   font-style: normal;
+
+   }
 .maim-stayl{
-  background-color: #2E2F42 ;
+  background-color:var(--titli-text-color) ;
 }
 .main-title {
   color:var(--accent-color);
   font-weight: 700;
   font-size: 56px;
   line-height:1.07;
+  letter-spacing:0.02em;
 }
-.test-button{
-background-color:#4D5AE5 ;
-color:var(--accent-color);
+.test-button {
+background-color:var(--first-bg-color);
+color:var(--cecond-tx-color);
 border-radius: 4px;
-font-family:Arial, Helvetica, sans-serif ;
+font-family:inherit;
+letter-spacing:0.04em;
+font-size:16px;
+line-height:1.5;
+font-weight: 500;
+font-style: normal;
 }
 .visually-hidden {
   position: absolute;
@@ -73,44 +84,46 @@ font-family:Arial, Helvetica, sans-serif ;
     clip-path: inset(50%);
     margin: -1px;
 }
-.section-title{
+.section-decor a {
   text-decoration:none ;
+}
+.section-title{
   color:var(--titli-text-color); 
    font-weight: 500;
    font-size: 20px;
    line-height:1.2;
+   letter-spacing:0.02em;
   
 }
 .section-text{
   color:var(--primary-text-color);
-  
- font-weight: 400;
  font-size: 16px;
  line-height:1.5;
+ letter-spacing:0.02em;
 }
 .section-styl{
   color:var(--titli-text-color);
-   
    font-weight: 700;
    font-size: 36px;
    line-height:1.33;
+   letter-spacing:0.02em;
 }
 
 .about-piple{
-  background-color:#F4F4FD;
+  background-color:var(--second-bg-color);
 }
 
 .section-team{
-  background-color:#F4F4FD ; 
+  background-color:var(--second-bg-color); 
 
 }
  
 .footer-stayl{
-  background-color:#2E2F42;
+  background-color:var(--titli-text-color);
    
 }
 .section-fon{
-  background-color: #FFFFFF;
+  background-color:var(--accent-color);
 }
 .WebStudio-stayl{
   color:var(--accent-color);
@@ -118,28 +131,30 @@ font-family:Arial, Helvetica, sans-serif ;
    font-weight: 800;
    font-size: 18px;
    line-height:1.16;
+   letter-spacing:0.03em;
 }
 .footer-studio{
   color:var(--accent-color);
 }
-.footet-web{
-  color: #4D5AE5;
+.footet-web {
+  color:var(--first-bg-color);
 }
-.footer-text{
-  color: #E7E9FC ;
-   font-weight: 400;
+.footer-text  {
+  color:var(--cecond-tx-color) ;
    font-size: 16px;
    line-height:1.5;
+   letter-spacing:0.02em;
 }
 
-.button-secondary :hover {
-  /*color: #4D5AE5;*/
-  background-color: #F4F4FD;
+.button-secondary :hover,:focus {
+  background-color:var(--second-bg-color);
+  color:var(--first-bg-color);
   border-radius: 4px;
    font-family:'Roboto', sans-serif;
    font-style: normal;
    font-weight: 500;
    font-size: 16px;
    line-height:1.5;
+   cursor: pointer;
 }
 
